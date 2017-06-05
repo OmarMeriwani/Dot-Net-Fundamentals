@@ -1,1 +1,6 @@
 C:\Users\omar.sirwan\Documents\GitHub\Dot-Net-Fundamentals\Thread class\Thread class\bin\Debug\Thread class.exe.config
+C:\Users\omar.sirwan\Documents\GitHub\Dot-Net-Fundamentals\Thread class\Thread class\bin\Debug\Thread class.exe
+C:\Users\omar.sirwan\Documents\GitHub\Dot-Net-Fundamentals\Thread class\Thread class\bin\Debug\Thread class.pdb
+C:\Users\omar.sirwan\Documents\GitHub\Dot-Net-Fundamentals\Thread class\Thread class\obj\Debug\Thread class.csprojResolveAssemblyReference.cache
+C:\Users\omar.sirwan\Documents\GitHub\Dot-Net-Fundamentals\Thread class\Thread class\obj\Debug\Thread class.exe
+C:\Users\omar.sirwan\Documents\GitHub\Dot-Net-Fundamentals\Thread class\Thread class\obj\Debug\Thread class.pdb
