@@ -6,25 +6,23 @@ using System.Threading;
 
 namespace Thread_class
 {
-    class Program
+    class BackgroundThread
     {
-        public static void MethodOfThread(object a)
+        public static void MethodOfThread()
         {
-            for (int i = 0; i < (int)a; i++)
+            for (int i = 0; i < 5; i++)
             {
                 Console.WriteLine("Thread i = {0}", i);
-                Thread.Sleep(1000);
+                Thread.Sleep(10000);
             }
         }
 
         static void Main(string[] args)
         {
-            Thread t = new Thread(new ParameterizedThreadStart(MethodOfThread));
+            Thread t = new Thread(new ThreadStart(MethodOfThread));
             t.IsBackground = true;
-            t.Start(7);
+            t.Start();
         }
      
-
-
     }
 }
