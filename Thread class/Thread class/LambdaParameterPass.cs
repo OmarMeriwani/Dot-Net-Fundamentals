@@ -7,7 +7,7 @@ using System.Threading;
 namespace Thread_class
 {
 
-    class Program
+    class LambdaParameterPass
     {
         public static void MethodOfThread(int a, int b)
         {
@@ -18,12 +18,12 @@ namespace Thread_class
             }
         }
 
-        static void Main(string[] args)
+        static void Mainn(string[] args)
         {
-            Thread t = new Thread(u => MethodOfThread(5,1000));
+            Thread t = new Thread(u => MethodOfThread(5, 1000));
             t.Start();
         }
-     
+
 
 
     }

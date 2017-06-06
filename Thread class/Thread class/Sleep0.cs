@@ -17,7 +17,7 @@ namespace Thread_class
             }
         }
 
-        static void Main(string[] args)
+        static void Mainn(string[] args)
         {
             Thread t = new Thread(new ThreadStart(MethodOfThread));
             t.Start();
